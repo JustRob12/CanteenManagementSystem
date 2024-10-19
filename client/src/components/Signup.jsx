@@ -24,7 +24,7 @@ const Signup = () => {
     });
   };
 
-  const API_URL = 'https://your-backend-url.vercel.app/api'; // Replace with your actual backend URL
+  const API_URL = 'https://canteen-management-system-zy82-api.vercel.app/'; // Replace with your actual backend URL
 
   const handleSubmit = async (e) => {
     e.preventDefault();

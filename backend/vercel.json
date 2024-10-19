@@ -1,0 +1,20 @@
+{
+    "version": 2,
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "/backend/server.js"
+      }
+    ],
+    "builds": [
+      {
+        "src": "backend/server.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "env": {
+      "MONGODB_URI": "mongodb+srv://campusbite:yqNEfnxXhTWN99Pu@canteen.ea4ja.mongodb.net/",  
+      "JWT_SECRET": "your_secret_key_here"                    
+    }
+  }
+  
